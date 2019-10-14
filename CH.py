@@ -10,7 +10,7 @@ from datetime import timedelta, date, datetime
 
 def location_finder():
     url_map = "https://maps.googleapis.com/maps/api/geocode/json"
-    key = 'AIzaSyDx9EfTE_4cPsE9ihJjmqR319U5LhzpvPk'
+    key = '************************************'
     address = input("Enter an address")
     print(address)
     payload = {'key': key, 'address': address}
@@ -54,7 +54,7 @@ while True:
 
 #creating url for requests
 endpoint = 'https://api.darksky.net/forecast/'
-key1 = '251cb187f7056e08ba336253030a291a' 
+key1 = '************************' 
 payload1 = {'units': 'us'}
 
 #Creating lists for Months and Days
